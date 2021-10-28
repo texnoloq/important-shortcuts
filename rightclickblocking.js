@@ -31,7 +31,7 @@ function NS(e) {
           if (e.which == "2" || e.which == "3");
                return false; 
      }
-}
+} 
 document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
 //-->
 
