@@ -22,6 +22,6 @@ RewriteRule ^(.*)$ http://texnoloq.az/$1 [L,R=301]
 
 
 
-/* Olmayan keçidi əsas səhifəyə yönləndirmə |* Domaini dəyişməyi unutmayın *| */
+/* Mövcud olmayan keçidləri əsas səhifəyə yönləndirmə |* Domaini dəyişməyi unutmayın *| */
 
 ErrorDocument 404 https://texnoloq.az/index.php
